@@ -1,0 +1,349 @@
+2022-11-15 00:01:02,532 [INFO] com.vehicleRental.controller.UserController [http-nio-2720-exec-3] User Logged In
+2022-11-15 00:01:02,541 [INFO] com.vehicleRental.controller.UserController [http-nio-2720-exec-5] User Queried
+2022-11-15 00:01:06,498 [INFO] com.vehicleRental.controller.VehicleController [http-nio-2720-exec-8] Vehicle Viewed By Type
+2022-11-15 00:01:19,213 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-9] Vehicle Available
+2022-11-15 00:01:20,329 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-1] Booking Added
+2022-11-15 00:03:00,598 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-3] Booking Viewed by Id
+2022-11-15 00:03:00,608 [INFO] com.vehicleRental.controller.paymentController [http-nio-2720-exec-6] Payment Processed
+2022-11-15 00:04:57,159 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 00:04:57,179 [INFO] org.apache.catalina.core.StandardService [Thread-5] Stopping service [Tomcat]
+2022-11-15 00:04:57,180 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 00:04:57,183 [WARN] org.apache.catalina.loader.WebappClassLoaderBase [Thread-5] The web application [ROOT] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2022-11-15 00:04:57,183 [WARN] org.apache.catalina.loader.WebappClassLoaderBase [Thread-5] The web application [ROOT] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2022-11-15 00:04:57,190 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:04:57,193 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2022-11-15 00:04:57,194 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2022-11-15 00:04:57,268 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Starting VehicleRentalApplication using Java 17.0.4.1 on DESKTOP-NCHD4S7 with PID 25480 (D:\STSDoc\VehicleRental\target\classes started by devan in D:\STSDoc\VehicleRental)
+2022-11-15 00:04:57,268 [DEBUG] com.vehicleRental.VehicleRentalApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-15 00:04:57,268 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-15 00:04:57,516 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 00:04:57,532 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15 ms. Found 5 JPA repository interfaces.
+2022-11-15 00:04:57,610 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2720 (http)
+2022-11-15 00:04:57,610 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-15 00:04:57,610 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 00:04:57,627 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-15 00:04:57,627 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 357 ms
+2022-11-15 00:04:57,655 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 00:04:57,660 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-11-15 00:04:57,702 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-11-15 00:04:57,703 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 00:04:57,868 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 00:04:57,868 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:04:58,029 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 00:04:58,129 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-15 00:04:58,137 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2720 (http) with context path ''
+2022-11-15 00:04:58,140 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Started VehicleRentalApplication in 0.896 seconds (JVM running for 2944.945)
+2022-11-15 00:04:58,142 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-15 00:05:34,835 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 00:05:34,844 [INFO] org.apache.catalina.core.StandardService [Thread-7] Stopping service [Tomcat]
+2022-11-15 00:05:34,848 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:05:34,849 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2022-11-15 00:05:34,850 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2022-11-15 00:05:34,906 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Starting VehicleRentalApplication using Java 17.0.4.1 on DESKTOP-NCHD4S7 with PID 25480 (D:\STSDoc\VehicleRental\target\classes started by devan in D:\STSDoc\VehicleRental)
+2022-11-15 00:05:34,906 [DEBUG] com.vehicleRental.VehicleRentalApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-15 00:05:34,906 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-15 00:05:35,021 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 00:05:35,035 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 5 JPA repository interfaces.
+2022-11-15 00:05:35,088 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2720 (http)
+2022-11-15 00:05:35,089 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-15 00:05:35,089 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 00:05:35,105 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-15 00:05:35,105 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 198 ms
+2022-11-15 00:05:35,127 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 00:05:35,130 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-11-15 00:05:35,172 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-11-15 00:05:35,173 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 00:05:35,311 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 00:05:35,312 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:05:35,461 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 00:05:35,529 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-15 00:05:35,537 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2720 (http) with context path ''
+2022-11-15 00:05:35,540 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Started VehicleRentalApplication in 0.649 seconds (JVM running for 2982.344)
+2022-11-15 00:05:35,541 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-15 00:08:05,135 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 00:08:05,153 [INFO] org.apache.catalina.core.StandardService [Thread-11] Stopping service [Tomcat]
+2022-11-15 00:08:05,156 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:08:05,156 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2022-11-15 00:08:05,158 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2022-11-15 00:08:05,211 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Starting VehicleRentalApplication using Java 17.0.4.1 on DESKTOP-NCHD4S7 with PID 25480 (D:\STSDoc\VehicleRental\target\classes started by devan in D:\STSDoc\VehicleRental)
+2022-11-15 00:08:05,211 [DEBUG] com.vehicleRental.VehicleRentalApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-15 00:08:05,212 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-15 00:08:05,331 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 00:08:05,346 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 5 JPA repository interfaces.
+2022-11-15 00:08:05,402 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2720 (http)
+2022-11-15 00:08:05,402 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-15 00:08:05,402 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 00:08:05,420 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-15 00:08:05,420 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 207 ms
+2022-11-15 00:08:05,443 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 00:08:05,446 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2022-11-15 00:08:05,493 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2022-11-15 00:08:05,493 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 00:08:05,617 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 00:08:05,617 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:08:05,773 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 00:08:05,838 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-15 00:08:05,846 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2720 (http) with context path ''
+2022-11-15 00:08:05,849 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Started VehicleRentalApplication in 0.656 seconds (JVM running for 3132.654)
+2022-11-15 00:08:05,850 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-15 00:14:25,170 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 00:14:25,180 [INFO] org.apache.catalina.core.StandardService [Thread-15] Stopping service [Tomcat]
+2022-11-15 00:14:25,184 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:14:25,185 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+2022-11-15 00:14:25,187 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+2022-11-15 00:14:25,251 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Starting VehicleRentalApplication using Java 17.0.4.1 on DESKTOP-NCHD4S7 with PID 25480 (D:\STSDoc\VehicleRental\target\classes started by devan in D:\STSDoc\VehicleRental)
+2022-11-15 00:14:25,251 [DEBUG] com.vehicleRental.VehicleRentalApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-15 00:14:25,251 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-15 00:14:25,377 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 00:14:25,392 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15 ms. Found 5 JPA repository interfaces.
+2022-11-15 00:14:25,443 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2720 (http)
+2022-11-15 00:14:25,444 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-15 00:14:25,444 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 00:14:25,461 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-15 00:14:25,461 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 209 ms
+2022-11-15 00:14:25,483 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 00:14:25,487 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2022-11-15 00:14:25,527 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2022-11-15 00:14:25,527 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 00:14:25,655 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 00:14:25,655 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:14:25,800 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 00:14:25,871 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-15 00:14:25,883 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2720 (http) with context path ''
+2022-11-15 00:14:25,886 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Started VehicleRentalApplication in 0.652 seconds (JVM running for 3512.69)
+2022-11-15 00:14:25,887 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-15 00:15:23,754 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 00:15:23,771 [INFO] org.apache.catalina.core.StandardService [Thread-19] Stopping service [Tomcat]
+2022-11-15 00:15:23,774 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-19] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:15:23,775 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown initiated...
+2022-11-15 00:15:23,777 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown completed.
+2022-11-15 00:15:23,836 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Starting VehicleRentalApplication using Java 17.0.4.1 on DESKTOP-NCHD4S7 with PID 25480 (D:\STSDoc\VehicleRental\target\classes started by devan in D:\STSDoc\VehicleRental)
+2022-11-15 00:15:23,836 [DEBUG] com.vehicleRental.VehicleRentalApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-15 00:15:23,836 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-15 00:15:23,954 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 00:15:23,972 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 5 JPA repository interfaces.
+2022-11-15 00:15:24,023 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2720 (http)
+2022-11-15 00:15:24,024 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-15 00:15:24,024 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 00:15:24,042 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-15 00:15:24,042 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 204 ms
+2022-11-15 00:15:24,062 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 00:15:24,065 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2022-11-15 00:15:24,108 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2022-11-15 00:15:24,109 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 00:15:24,229 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 00:15:24,229 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:15:24,359 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 00:15:24,414 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-15 00:15:24,428 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2720 (http) with context path ''
+2022-11-15 00:15:24,431 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Started VehicleRentalApplication in 0.611 seconds (JVM running for 3571.235)
+2022-11-15 00:15:24,431 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-15 00:16:34,387 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 00:16:34,405 [INFO] org.apache.catalina.core.StandardService [Thread-23] Stopping service [Tomcat]
+2022-11-15 00:16:34,408 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-23] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:16:34,408 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-6 - Shutdown initiated...
+2022-11-15 00:16:34,409 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-6 - Shutdown completed.
+2022-11-15 00:16:34,465 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Starting VehicleRentalApplication using Java 17.0.4.1 on DESKTOP-NCHD4S7 with PID 25480 (D:\STSDoc\VehicleRental\target\classes started by devan in D:\STSDoc\VehicleRental)
+2022-11-15 00:16:34,465 [DEBUG] com.vehicleRental.VehicleRentalApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-15 00:16:34,465 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-15 00:16:34,570 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 00:16:34,585 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 5 JPA repository interfaces.
+2022-11-15 00:16:34,634 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2720 (http)
+2022-11-15 00:16:34,634 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-15 00:16:34,634 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 00:16:34,653 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-15 00:16:34,653 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 186 ms
+2022-11-15 00:16:34,674 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 00:16:34,678 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2022-11-15 00:16:34,719 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2022-11-15 00:16:34,720 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 00:16:34,843 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 00:16:34,843 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:16:34,981 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 00:16:35,064 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-15 00:16:35,073 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2720 (http) with context path ''
+2022-11-15 00:16:35,079 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Started VehicleRentalApplication in 0.628 seconds (JVM running for 3641.883)
+2022-11-15 00:16:35,079 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-15 00:19:24,876 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-2720-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-15 00:19:24,876 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-2720-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-15 00:19:24,877 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-2720-exec-1] Completed initialization in 1 ms
+2022-11-15 00:19:28,661 [INFO] com.vehicleRental.controller.UserController [http-nio-2720-exec-2] ashwini@gmail.com :User Added
+2022-11-15 00:19:52,866 [INFO] com.vehicleRental.controller.CustomerController [http-nio-2720-exec-4] Ashwini Customer Viewed
+2022-11-15 00:19:56,465 [INFO] com.vehicleRental.controller.CustomerController [http-nio-2720-exec-4] Ashwini Mail Sent
+2022-11-15 00:20:04,124 [INFO] com.vehicleRental.controller.UserController [http-nio-2720-exec-5] Password Fetched
+2022-11-15 00:20:04,126 [ERROR] com.vehicleRental.exception.GlobalExceptionHandler [http-nio-2720-exec-5] User Does Not Exist
+2022-11-15 00:20:04,127 [WARN] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-2720-exec-5] Resolved [com.vehicleRental.exception.UserDoesNotExistException: ashwin@gmail.com]
+2022-11-15 00:21:30,999 [INFO] com.vehicleRental.controller.UserController [http-nio-2720-exec-6] User Logged In
+2022-11-15 00:21:31,004 [INFO] com.vehicleRental.controller.UserController [http-nio-2720-exec-7] User Queried
+2022-11-15 00:21:40,407 [INFO] com.vehicleRental.controller.VehicleController [http-nio-2720-exec-10] Vehicle Viewed By Type
+2022-11-15 00:21:53,650 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-1] Vehicle Available
+2022-11-15 00:22:03,879 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-2] Vehicle Available
+2022-11-15 00:22:05,772 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-3] Booking Added
+2022-11-15 00:22:05,772 [ERROR] com.vehicleRental.controller.BookingController [http-nio-2720-exec-3] Invalid Booking Details
+2022-11-15 00:22:05,774 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-2720-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.vehicleRental.exception.InvalidBookingDetailsException] with root cause
+com.vehicleRental.exception.InvalidBookingDetailsException: null
+	at com.vehicleRental.controller.BookingController.addBooking(BookingController.java:57) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2022-11-15 00:22:08,981 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-4] Vehicle Available
+2022-11-15 00:22:09,661 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-5] Booking Added
+2022-11-15 00:22:33,017 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-6] Booking Viewed by Id
+2022-11-15 00:22:33,027 [INFO] com.vehicleRental.controller.paymentController [http-nio-2720-exec-7] Payment Processed
+2022-11-15 00:23:03,158 [INFO] com.vehicleRental.controller.UserController [http-nio-2720-exec-8] User Logged In
+2022-11-15 00:23:03,163 [INFO] com.vehicleRental.controller.UserController [http-nio-2720-exec-9] User Queried
+2022-11-15 00:23:05,053 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-1] Booking Viewed by Customer
+2022-11-15 00:23:25,471 [INFO] com.vehicleRental.controller.UserController [http-nio-2720-exec-3] User Logged In
+2022-11-15 00:23:25,476 [INFO] com.vehicleRental.controller.UserController [http-nio-2720-exec-4] User Queried
+2022-11-15 00:23:27,292 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-6] Booking Viewed by Customer
+2022-11-15 00:24:42,407 [INFO] com.vehicleRental.controller.UserController [http-nio-2720-exec-9] User Logged In
+2022-11-15 00:24:42,414 [INFO] com.vehicleRental.controller.UserController [http-nio-2720-exec-10] User Queried
+2022-11-15 00:24:42,423 [INFO] com.vehicleRental.controller.paymentController [http-nio-2720-exec-1] All Payments Viewed
+2022-11-15 00:24:47,853 [INFO] com.vehicleRental.controller.paymentController [http-nio-2720-exec-2] All Payments Viewed
+2022-11-15 00:25:34,500 [INFO] com.vehicleRental.controller.paymentController [http-nio-2720-exec-4] All Payments Viewed
+2022-11-15 00:25:42,657 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-6] Booking Viewed by Id
+2022-11-15 00:25:42,676 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-8] Booking Status Changed ToApproved
+2022-11-15 00:26:11,388 [INFO] com.vehicleRental.controller.paymentController [http-nio-2720-exec-10] All Payments Viewed
+2022-11-15 00:30:43,258 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 00:30:43,268 [INFO] org.apache.catalina.core.StandardService [Thread-27] Stopping service [Tomcat]
+2022-11-15 00:30:43,268 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-27] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 00:30:43,271 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-27] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:30:43,272 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-27] HikariPool-7 - Shutdown initiated...
+2022-11-15 00:30:43,273 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-27] HikariPool-7 - Shutdown completed.
+2022-11-15 00:30:43,334 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Starting VehicleRentalApplication using Java 17.0.4.1 on DESKTOP-NCHD4S7 with PID 25480 (D:\STSDoc\VehicleRental\target\classes started by devan in D:\STSDoc\VehicleRental)
+2022-11-15 00:30:43,334 [DEBUG] com.vehicleRental.VehicleRentalApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-15 00:30:43,334 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-15 00:30:43,460 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 00:30:43,474 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 5 JPA repository interfaces.
+2022-11-15 00:30:43,533 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2720 (http)
+2022-11-15 00:30:43,533 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-15 00:30:43,533 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 00:30:43,549 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-15 00:30:43,549 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 213 ms
+2022-11-15 00:30:43,573 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 00:30:43,577 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2022-11-15 00:30:43,618 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2022-11-15 00:30:43,618 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 00:30:43,751 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 00:30:43,751 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:30:43,896 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 00:30:43,989 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-15 00:30:43,997 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2720 (http) with context path ''
+2022-11-15 00:30:44,000 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Started VehicleRentalApplication in 0.685 seconds (JVM running for 4490.804)
+2022-11-15 00:30:44,001 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-15 00:31:34,766 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 00:31:34,784 [INFO] org.apache.catalina.core.StandardService [Thread-31] Stopping service [Tomcat]
+2022-11-15 00:31:34,787 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-31] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:31:34,787 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-31] HikariPool-8 - Shutdown initiated...
+2022-11-15 00:31:34,789 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-31] HikariPool-8 - Shutdown completed.
+2022-11-15 00:31:34,849 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Starting VehicleRentalApplication using Java 17.0.4.1 on DESKTOP-NCHD4S7 with PID 25480 (D:\STSDoc\VehicleRental\target\classes started by devan in D:\STSDoc\VehicleRental)
+2022-11-15 00:31:34,849 [DEBUG] com.vehicleRental.VehicleRentalApplication [restartedMain] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-15 00:31:34,850 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-15 00:31:34,983 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 00:31:34,996 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12 ms. Found 5 JPA repository interfaces.
+2022-11-15 00:31:35,048 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 2720 (http)
+2022-11-15 00:31:35,048 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-15 00:31:35,048 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 00:31:35,063 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-15 00:31:35,063 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 212 ms
+2022-11-15 00:31:35,085 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 00:31:35,088 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2022-11-15 00:31:35,129 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2022-11-15 00:31:35,130 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 00:31:35,255 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 00:31:35,255 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:31:35,381 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 00:31:35,443 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-15 00:31:35,451 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 2720 (http) with context path ''
+2022-11-15 00:31:35,454 [INFO] com.vehicleRental.VehicleRentalApplication [restartedMain] Started VehicleRentalApplication in 0.621 seconds (JVM running for 4542.259)
+2022-11-15 00:31:35,455 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-15 00:31:40,636 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-2720-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-15 00:31:40,637 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-2720-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-15 00:31:40,637 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-2720-exec-1] Completed initialization in 0 ms
+2022-11-15 00:31:42,877 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-2] Booking Viewed by Id
+2022-11-15 00:31:46,598 [ERROR] com.vehicleRental.controller.BookingController [http-nio-2720-exec-3] 282Updation Mail Sent
+2022-11-15 00:31:46,598 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-3] Booking Status Changed ToApproved
+2022-11-15 00:32:18,428 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-5] Booking Viewed by Id
+2022-11-15 00:32:22,067 [ERROR] com.vehicleRental.controller.BookingController [http-nio-2720-exec-7] 280Updation Mail Sent
+2022-11-15 00:32:22,067 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-7] Booking Status Changed ToDenied
+2022-11-15 00:32:29,430 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-9] Booking Viewed by Id
+2022-11-15 00:32:33,164 [ERROR] com.vehicleRental.controller.BookingController [http-nio-2720-exec-10] 282Updation Mail Sent
+2022-11-15 00:32:33,164 [INFO] com.vehicleRental.controller.BookingController [http-nio-2720-exec-10] Booking Status Changed ToDenied
+2022-11-15 00:32:59,580 [INFO] com.vehicleRental.controller.paymentController [http-nio-2720-exec-2] All Payments Viewed
+2022-11-15 00:37:07,257 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(84)-127.0.0.1] Application shutdown requested.
+2022-11-15 00:37:07,274 [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(84)-127.0.0.1] Stopping service [Tomcat]
+2022-11-15 00:37:07,274 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(84)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 00:37:07,278 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(84)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 00:37:07,278 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(84)-127.0.0.1] HikariPool-9 - Shutdown initiated...
+2022-11-15 00:37:07,280 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(84)-127.0.0.1] HikariPool-9 - Shutdown completed.
